@@ -26,7 +26,7 @@ function calcular(){
     let qnt_faltas = qntd_dias * 4
     let presenca_total = contarDiasUteisMesCorrente() * 4
     let percentual_faltas = (qnt_faltas/presenca_total)*100
-    let percentual_presenca = 100
+    let percentual_presenca = 100 - percentual_faltas
     let valor_que_vou_receber = 0
 
     if (percentual_presenca >= 75) {
