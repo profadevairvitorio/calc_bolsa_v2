@@ -41,6 +41,7 @@ function calcular(){
 
 
     let resultado = "Você vai receber: R$" + valor_que_vou_receber
+    alert(resultado)
 
     console.log(qnt_faltas)
     console.log(presenca_total)
